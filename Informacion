@@ -1,0 +1,17 @@
+Comandos para usar Github
+
+// Teniendo la carpeta creada, tenemos que inicializarla
+
+git init
+
+// En caso de querer ver el estatus de los archivos
+
+git status
+
+// Para añadir al area local temporal para ver los cambios
+
+git add .
+
+// Para dar seguimiento a un programa
+
+git commit -m "*Agregamos una descripcion*"
