@@ -6,7 +6,7 @@ git init
 
 // En caso de querer ver el estatus de los archivos
 
-git status
+git status -s
 
 // Para añadir al area local temporal para ver los cambios
 
@@ -15,3 +15,15 @@ git add .
 // Para dar seguimiento a un programa
 
 git commit -m "*Agregamos una descripcion*"
+
+// Para ver todos los commits con los comentarios y asi rebobinar
+
+git log --oneline
+
+// Para rebobinar a un cierto punto (Revertir cambios)
+
+git reset --hard *identificador hexadecimal de commit*
+
+// Para subir el repositorio de Github, se crea el repositorio en la pagina y muestra "Insertar un repositorio existente desde la línea de comandos", solamente es copiar y pegar los comandos que muestra.
+
+// Para subir los cambios solo debemos ver el status, añadir al directorio temporal, commit para guardar el codigo y push para subir a la nube.
