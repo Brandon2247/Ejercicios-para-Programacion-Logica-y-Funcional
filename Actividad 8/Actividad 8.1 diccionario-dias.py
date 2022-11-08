@@ -1,10 +1,8 @@
-
-
+#Ejercicio 8.1 - Mostrar clasificacion cada mensaje de correo dependiendo del día de la semana en que se recibió
 
 fname = input('Ingresa un nombre de archivo: ')
 
 fhand = open(fname)
-#ejecicio 1
 def analizador(linea):
     if linea.startswith('From ') == True:
        c=((linea.split())[2])
@@ -12,6 +10,3 @@ def analizador(linea):
 cou = dict()
 list(map(analizador,fhand))
 print(cou)
-
-
-
