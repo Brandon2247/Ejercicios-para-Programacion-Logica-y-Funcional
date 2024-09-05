@@ -1,11 +1,11 @@
 import serial
 import time
 import collections
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
-from matplotlib.lines import Line2D
-import numpy as np
-import pymongo
+import matplotlib.pyplot as plt # type: ignore
+import matplotlib.animation as animation # type: ignore
+from matplotlib.lines import Line2D # type: ignore
+import numpy as np # type: ignore
+import pymongo # type: ignore
 
 #Remplazar el enlace de secuencia con la conexion de desarrollo de MongoDB.
 conn_str= "mongodb://localhost:27017/"
