@@ -1,0 +1,25 @@
+def segundos_por_hora():
+    return 60**2
+
+print("Segundos por hora: ",segundos_por_hora)
+
+#---
+
+def segundos_por_dia():
+    return(segundos_por_hora()*24)
+y = segundos_por_dia()
+print(y)
+
+#---
+
+def divflot():
+    return(segundos_por_dia()/segundos_por_hora())
+y = divflot()
+print(y)
+
+#---
+
+def divent():
+    return(segundos_por_dia()/segundos_por_hora())
+x = divent()
+print(x)

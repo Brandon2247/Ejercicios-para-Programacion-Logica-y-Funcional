@@ -1,0 +1,21 @@
+from fractions import Fraction
+
+def problema1():
+    return pow(Fraction(2,3),-2) * pow(Fraction(3,2),-3)
+print("Problema 1 =", problema1())
+
+def problema2():
+    return ((pow(Fraction(4,9),-2)) / (pow(Fraction(27,8),-3)))
+print("Problema 2 =", problema2())
+
+def problema3():
+    return pow(pow(pow(Fraction(2,3),2),3),-4)
+print("Problema 3 =", problema3())
+
+def problema4():
+    return (1-Fraction(1,1-Fraction(1,1-Fraction(1,2))))
+print("Problema 4 =", problema4())
+
+def problema5():
+    return (((Fraction(2,3)-Fraction(1,9))+13*(pow(Fraction(2,3)-1,2)))/((Fraction(1,2)-1/(2*Fraction(1,2)))))
+print("Problema 5 =", problema5())
